@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul {
+	overflow: auto;
+	background-color: #353535; 
+	list-style: none;
+	padding: 10px;
+
+}
+
+nav li {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	transition: .5s;
+}
+
+nav a:hover {
+	color: #353535;
+	background: #ffb347;
+	padding: 10px; 
+}
+
+
+
+.header {
+	background-image: url("../images/beach.jpeg");/*../(up one level to find the image)*/
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	color: #ffb347;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	padding: 60px;
+}
