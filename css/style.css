@@ -7,22 +7,24 @@
 }
 
 body {
-	background-color: #ffb347;
+	background-color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-   background-color: #353535;
-   margin: 10px 0;
-   padding: 10px;
+	background-color: #fff;
+	color: #00CED1;
+	margin: 10px 0;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
 }
 
 nav ul {
 	overflow: auto;
-	background-color: #353535; 
+	background-color: #fff;
 	list-style: none;
-	padding: 10px;
-
+	padding: 15px;
 }
 
 nav li {
@@ -30,58 +32,76 @@ nav li {
 	width: 33.33%;
 	text-align: center;
 }
-
 nav a {
+	color: #00CED1;
 	text-decoration: none;
-	color: white;
 	font-size: 20px;
 	transition: .5s;
 }
 
 nav a:hover {
-	color: #353535;
-	background: #ffb347;
-	padding: 10px; 
+	background: #00CED1;
+	color: #fff;
+	padding: 20px; 
 }
 
 .header {
-	background-image: url("../images/beach.jpeg");/*../(up one level to find the image)*/
+	padding: 200px 0px;
+	background-image: url("../images/water.jpg");
 	background-size: cover;
-    background-position: bottom; 
-	color: #ffb347;
+	background-position: bottom;
+	color: #fff;
 	text-align: center;
-	font-size: 30px;
-	padding: 200px 60px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #656565;
 }
 
 .main-content {
-	background-color: #353535;
-	color: #fff;
+	background-color: #00CED1;
 	padding: 20px;
 	margin: 20px;
-}
-
-.main-content-about {
-	background-color: #ffb347;
 }
 
 .img-50 {
 	width: 50%;
 	display: block;
-	margin: 20px auto;
-		
+	margin: 2% 0;
 }
 
-/* These are Utility Classes
-============================================= */
+/* Forms ====================================================================*/
+
+label {
+	display: flex;
+	justify-content: center;
+	margin: 20px;	
+}
+
+input {
+	padding: 5px 0 5px 5px;
+}
+
+input[type="radio"] {
+	margin-right: 5px;
+	display: inline-block;
+}
+
+button {
+	display: block;
+	margin: auto;
+	padding: 5px;
+}
+
+.font-color {
+	color: #fff;
+}
+
+/* These are Utility Classes 
+===============================================================================*/
 
 .center-text {
 	text-align: center;
-	background-color: #ffb347;
-	color: #353535;
+	padding-left: 5px;
 }
-
-
 
 
 
