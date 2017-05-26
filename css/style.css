@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: #fff;
+	background-image: url("../images/water.jpg");
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -29,44 +29,49 @@ nav ul {
 }
 
 nav li {
-	float: left;
-	width: 33.33%;
-	text-align: center;
+	float: right;
+	padding: 10px;
+	text-align: right;
 }
 nav a {
 	color: #00CED1;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 15px;
 	transition: .5s;
 }
 
 nav a:hover {
 	background: #00CED1;
 	color: #fff;
-	padding: 20px; 
+	padding: 15px; 
 }
 
 .header {
-	padding: 200px 0px;
-	background-image: url("../images/water.jpg");
-	background-size: cover;
-	background-position: bottom;
-	color: #fff;
+	padding: 100px 0px;
+	
+	
+	color: #FF0080;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	border: 1px solid #656565;
+	font-size: 50px;
+	
 }
 
 .main-content {
 	background-color: #00CED1;
-	padding: 20px;
+
+	height: 500px;
 	margin: 20px;
+	padding: 20px;
+	
 }
 
-.img-50 {
-	width: 50%;
-	display: block;
-	margin: 2% 0;
+.col-1-4 {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	background-color: #fff;
+	border: 10px solid #00CED1;
 }
 
 /* Forms ====================================================================*/
